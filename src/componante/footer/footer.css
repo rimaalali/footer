@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.one{display: flex;
+    
+    width: 100vw;
+    height: 100px;
+    position:absolute;
+   bottom: 15px;
+
+    background-color: black;
+}
+.link{    text-decoration: none !important;
+    color:rgb(13 110 253);
+}
+a:hover{
+    color: rgb(33, 33, 161);
+    cursor:pointer;
+}
+p{
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+font-family:Arial, Helvetica, sans-serif ;
+}
